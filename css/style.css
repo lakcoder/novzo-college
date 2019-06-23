@@ -125,6 +125,13 @@
   border-right: 1px solid #d3d3d3;
 }
 
+.about-icon{
+  width:10%;
+  float: right;
+  display: flex;
+  border-left: 1px solid #d3d3d3;
+}
+
 .nav-icon-settings{
   border-right: 1px solid #d3d3d3;
 }
@@ -222,6 +229,22 @@ li a:hover {
   background: white;
   border:0px;
   height: 60px;
+}
+
+.signup-btn{
+  background-color: #fff;
+  border: 2px solid #012345;
+  border-radius: 2rem;
+  cursor: pointer;
+  align-items: center;
+  font-size: 1.3rem;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.signup-btn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .btn {
