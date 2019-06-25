@@ -132,13 +132,25 @@
   border-left: 1px solid #d3d3d3;
 }
 
+.signup-icon{
+  width:10%;
+  float: right;
+  display: flex;
+  border-left: 1px solid #d3d3d3;
+}
+
+.signup-icon:hover{
+  background: #012345;
+  color: #000;
+}
+
 .nav-icon-settings{
   border-right: 1px solid #d3d3d3;
 }
 
 .nav-icon-style{
-  margin-left: 1rem;
-  font-size: 1rem;
+  margin-left: 1em;
+  font-size: 1em;
 }
 .nav-search{
   width:59%;

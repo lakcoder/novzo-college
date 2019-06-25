@@ -6,16 +6,20 @@
       <h2 style="margin:0px; float:left; cursor:pointer"><span class="smallnav menu openNav" onclick="openNav()">☰</span></h2>
       <input type="search" name="q" class="smallnav nav-input-search mobSearch" placeholder="Search for Books, Posts..." />
     </div>
-    <div id="sticky_nav" class="nav-card largenav">
+    <div id="sticky_nav" class="logo-card largenav">
       <ul class="nav-list">
-        <li class="novzo-logo">
+        <li class="novzo-logo" style="width:100%">
           <a class="active" href="index.php">
             <img src="img/logos/novzologo.png" alt="novzo-logo" class="novzo-img"/>
           </a>
         </li>
-        <li class="about-icon">
+      </ul>
+    </div>
+    <div id="sticky_nav" class="right-card largenav">
+      <ul class="nav-list">
+        <li class="signup-icon" style="width:100%">
           <a class="active" href="about.php">
-            <button class="signup-btn">SignUp</button>
+            <p class="nav-icon-style"><b>SignUp</b></p>
           </a>
         </li>
       </ul>
